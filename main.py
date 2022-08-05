@@ -12,6 +12,13 @@ from ex2 import array_to_string
 # ex3
 from ex3 import add_numbers
 
-array = [1.0, 1.1, "1"]
-result = add_numbers(array)
-print(result)
+# array = [1.0, 1.1, "1"]
+# result = add_numbers(array)
+# print(result)
+
+# ex4
+from ex4 import count_words
+
+sentence = input("Enter sentence: ")
+num_words = count_words(sentence)
+print(num_words)
