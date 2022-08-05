@@ -19,6 +19,13 @@ from ex3 import add_numbers
 # ex4
 from ex4 import count_words
 
-sentence = input("Enter sentence: ")
-num_words = count_words(sentence)
-print(num_words)
+# sentence = input("Enter sentence: ")
+# num_words = count_words(sentence)
+# print(num_words)
+
+# ex5
+from ex5 import replace_period
+
+sentence = "Test.  This is a test.  Testing."
+sentence2 = replace_period(sentence, "!")
+print(sentence2)
