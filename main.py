@@ -26,6 +26,13 @@ from ex4 import count_words
 # ex5
 from ex5 import replace_period
 
-sentence = "Test.  This is a test.  Testing."
-sentence2 = replace_period(sentence, "!")
-print(sentence2)
+# sentence = "Test.  This is a test.  Testing."
+# sentence2 = replace_period(sentence, "!")
+# print(sentence2)
+
+# ex6
+from ex6 import slice_it
+
+array = ["this", "is", "another", "test"]
+r = slice_it(array)
+print(r)
