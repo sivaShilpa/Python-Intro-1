@@ -33,6 +33,16 @@ from ex5 import replace_period
 # ex6
 from ex6 import slice_it
 
-array = ["this", "is", "another", "test"]
-r = slice_it(array)
-print(r)
+# array = ["this", "is", "another", "test"]
+# r = slice_it(array)
+# print(r)
+
+# ex7
+from ex7 import calc_total
+
+array = [2.00, 4.00, 4.00]
+tax = "10%"
+result = calc_total(array, tax)
+print(result)
+
+
