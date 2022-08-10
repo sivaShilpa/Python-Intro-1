@@ -1,4 +1,5 @@
 from ex1 import hello_world
+from ex10 import calculator
 from ex2 import array_to_string
 
 # ex1
@@ -54,6 +55,11 @@ from ex8 import f_to_c, c_to_f
 # ex9
 from ex9 import vowel_counter
 
-sentence = "This is a test"
-num_vowels = vowel_counter(sentence)
-print(num_vowels)
+# sentence = "This is a test"
+# num_vowels = vowel_counter(sentence)
+# print(num_vowels)
+
+# ex10
+while True:
+    result = calculator()
+    print(result)
