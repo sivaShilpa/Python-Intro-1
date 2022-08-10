@@ -40,9 +40,15 @@ from ex6 import slice_it
 # ex7
 from ex7 import calc_total
 
-array = [2.00, 4.00, 4.00]
-tax = "10%"
-result = calc_total(array, tax)
-print(result)
+# array = [2.00, 4.00, 4.00]
+# tax = "10%"
+# result = calc_total(array, tax)
+# print(result)
+
+# ex8
+from ex8 import f_to_c, c_to_f
+
+print(f_to_c(22))
+print(c_to_f(-6))
 
 
