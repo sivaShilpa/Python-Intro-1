@@ -48,7 +48,12 @@ from ex7 import calc_total
 # ex8
 from ex8 import f_to_c, c_to_f
 
-print(f_to_c(22))
-print(c_to_f(-6))
+# print(f_to_c(22))
+# print(c_to_f(-6))
 
+# ex9
+from ex9 import vowel_counter
 
+sentence = "This is a test"
+num_vowels = vowel_counter(sentence)
+print(num_vowels)
