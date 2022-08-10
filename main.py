@@ -1,5 +1,6 @@
 from ex1 import hello_world
 from ex10 import calculator
+from ex11 import diagonal_printer
 from ex2 import array_to_string
 
 # ex1
@@ -60,6 +61,10 @@ from ex9 import vowel_counter
 # print(num_vowels)
 
 # ex10
-while True:
-    result = calculator()
-    print(result)
+# while True:
+#     result = calculator()
+#     print(result)
+
+# ex11
+
+diagonal_printer("This is a test")
