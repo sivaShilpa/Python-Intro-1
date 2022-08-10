@@ -1,6 +1,6 @@
 def calc_total(array, tax):
     output = 0
-    taxes = 0
+    taxes = ""
     for num in array:
         output += num
 
