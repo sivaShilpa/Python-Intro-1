@@ -1,6 +1,7 @@
 from ex1 import hello_world
 from ex10 import calculator
 from ex11 import diagonal_printer
+from ex12 import word_histogram
 from ex2 import array_to_string
 
 # ex1
@@ -67,4 +68,8 @@ from ex9 import vowel_counter
 
 # ex11
 
-diagonal_printer("This is a test")
+# diagonal_printer("This is a test")
+
+# ex12
+
+word_histogram("three three three two two one")
