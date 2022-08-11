@@ -2,6 +2,7 @@ from ex1 import hello_world
 from ex10 import calculator
 from ex11 import diagonal_printer
 from ex12 import word_histogram
+from ex13 import frame_it
 from ex2 import array_to_string
 
 # ex1
@@ -72,4 +73,9 @@ from ex9 import vowel_counter
 
 # ex12
 
-word_histogram("three three three two two one")
+# word_histogram("three three three two two one")
+
+# ex13
+
+wordlist = ["Hello", "World", "in", "a", "frame"]
+frame_it(wordlist)
